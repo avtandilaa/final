@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/e7a1dd603e.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css"
+    />
+    <link rel="icon" href="./images/logo.png" type="image/png" />
+    <style>
+        body {
+            background-image: url(./images/Sioni.jpg);
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand">
+        <div class="slogan">ბუნება და შენ</div>
+        <img src="./images/logo.png" class="logo" />
+      </div>
+      <ul>
+        <li><a href="index.html">მთავარი</a></li>
+        <li><a href="news.html">სიახლეები</a></li>
+        <li><a href="species.html">საქართველოს ბინადრები</a></li>
+        <li><a href="Reservoir.html">წყალსაცავები</a></li>
+        <li><a href="about.html">ჩვენს შესახებ</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+      </ul>
+    </nav>
+
+    <div class="container3">
+      <div class="contact-form">
+        <h2>დაგვიკავშირდით</h2>
+        <form action="#" method="POST">
+          <label for="name">სახელი</label>
+          <input type="text" required id="name" oninvalid="this.setCustomValidity('გთხოვთ შეიყვანოთ სახელი')" oninput="this.setCustomValidity('')">
+
+          <label for="email">ელფოსტა</label>
+          <input type="text" required id="name" oninvalid="this.setCustomValidity('გთხოვთ შეიყვანოთ ელფოსტა')" oninput="this.setCustomValidity('')">
+
+          <label for="message">წერილი</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit">გაგზავნა</button>
+        </form>
+      </div>
+
+      <div class="map">
+        <h2>მისამართი</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2180.2417701944523!2d44.8256785817886!3d41.67878084266363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440c4413454771%3A0xd181ba940d543fdd!2z4YOS4YOQ4YOg4YOU4YOb4YOd4YOh4YOT4YOQ4YOq4YOV4YOY4YOX4YOYIOGDluGDlOGDk-GDkOGDm-GDruGDlOGDk-GDleGDlOGDmuGDneGDkeGDmOGDoSDhg5Phg5Thg57hg5Dhg6Dhg6Lhg5Dhg5vhg5Thg5zhg6Lhg5g!5e1!3m2!1sen!2sge!4v1751980169679!5m2!1sen!2sge"></iframe>
+      </div>
+    </div>
+
+    <footer class="nature-footer">
+        <div class="nature-container">
+          <div class="nature-section">
+            <h3>ჩვენს შესახებ</h3>
+            <p>ჩვენ გეხმარებით დაუკავშირდეთ ბუნებას და გაწვდით ყველა ინფორმაციას მის შესახებ</p>
+          </div>
+          <div class="nature-section">
+            <h3>დაათვალიერე</h3>
+            <ul>
+              <li><a href="">სათევზაო ადგილები 🎣</a></li>
+              <li><a href="species.html">საქართველოს ბინადრები 🐟</a></li>
+              <li><a href="news.html">სიახლეები 📰</a></li>
+            </ul>
+          </div>
+          <div class="nature-section">
+            <h3>ჩვენი გვერდები</h3>
+            <div class="nature-icons">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+              <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="nature-bottom">
+          <p>🌿 Nature and You — Georgian Fishing & Nature Forum © 2025</p>
+        </div>
+        </footer>
+  </body>
+</html>
